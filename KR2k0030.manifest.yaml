@@ -1,0 +1,86 @@
+canonical_identifier: bkk:krp/KR2k0030/v1
+canonical_location: https://kanripo.org/bkk/KR2k0030/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 武功縣志
+  date: '2015-08-24 22:40:00.886575'
+  source:
+    repository: kanripo
+    path: KR2k0030
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2k0030_000.yaml, hash: 'sha256:78ac4c65583ee0ec38851c601693a8e43b3dd5f401751614c2d96f65fd6c365b'}
+  - {seq: 1, filename: KR2k0030_001.yaml, hash: 'sha256:7e70a179329825f3428ab9d81552e690e25d2aeaa568e01ad1344b06f4a99ec4'}
+  - {seq: 2, filename: KR2k0030_002.yaml, hash: 'sha256:2cad982ca7cee6d449ff6d88440c31499b6c60d0b6e8cd1cf345c39c1bf11e23'}
+  - {seq: 3, filename: KR2k0030_003.yaml, hash: 'sha256:30047d92f601ca11172cc4cc8779cecc88b627cd8d5474cee34de64a0f4272c1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2k0030_000.markers.yaml, hash: 'sha256:60976ef4cd609879b5e50c581361c61b233f05e0e70c849eff913bfdb025143e'}
+  - {seq: 1, role: markers, filename: assets/KR2k0030_001.markers.yaml, hash: 'sha256:fe6d36749da1b40f224111aa69c034b965c3aeaa3696322f7e807d672a00144a'}
+  - {seq: 2, role: markers, filename: assets/KR2k0030_002.markers.yaml, hash: 'sha256:c16d31920826644405fbdce14c78a267350eed6e657edcebe505335d76afe2b3'}
+  - {seq: 3, role: markers, filename: assets/KR2k0030_003.markers.yaml, hash: 'sha256:690b8e88605641756299e55a47c8a9320d5411708b12b7d5e401fe4c95f58e8f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2k0030_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 420
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0030_WYG_000-3a
+    span:
+    - body
+    - 420
+    - 1164
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2k0030_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 8980
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2k0030_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 7806
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR2k0030_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 12613
+  label: 卷三
+  type: section
+  level: 1
+hash: sha256:247bc18391b93495bb4b17daf73d3d80bb8f8bf5d62f049d8a2035d1f16fcbbe
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
